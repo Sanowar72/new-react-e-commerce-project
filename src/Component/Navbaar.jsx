@@ -27,10 +27,10 @@ function Navbaar() {
        </ul>
 
        <div className="buttons">
-         <button href="" className="btn btn-outline-dark me-1 ms-2" ><i className="fa fa-sign-in">Login</i></button>
+         <Link to="/signin" className="btn btn-outline-dark me-1 ms-2" ><i className="fa fa-sign-in">Sign In</i></Link>
        </div>
        <div className="buttons">
-         <button href="" className="btn btn-outline-dark me-1 ms-2"><i class="fa fa-sign-in">sign up</i></button>
+         <Link to="/signup" className="btn btn-outline-dark me-1 ms-2"><i class="fa fa-sign-in">sign up</i></Link>
        </div>
        <div className="buttons">
          <Link to="/cart" className="btn btn-outline-dark me-1 ms-2">

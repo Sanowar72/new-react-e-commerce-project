@@ -14,7 +14,7 @@ const handleCart =(state = cart,action) =>{
                 );
             }else{
                 const product = action.payload;
-                return[
+                return [
                     ...state,
                     {
                         ...product,
