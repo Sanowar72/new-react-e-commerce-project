@@ -80,18 +80,9 @@ function Cart() {
   const emptyCart = () => {
     return <h2>Cart is empty.....</h2>;
   };
-  //    const calculate=()=>{
-  //     let total = 0
+ 
 
-  // state.forEach((element)=>{
-  // 	const result = element.qty*element.price
-  // 	total = total+result;
-
-  // })
-  // console.log(total);
-
-  // fprice(total)
-  //  }
+  
   useEffect(() => {
     let total = 0;
 
